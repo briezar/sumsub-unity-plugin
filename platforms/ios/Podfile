@@ -1,0 +1,10 @@
+# Uncomment the next line to define a global platform for your project
+platform :ios, '13.0'
+source 'https://cdn.cocoapods.org/'
+source 'https://github.com/SumSubstance/Specs.git'
+
+target 'SumsubPlugin_iOS' do
+  use_frameworks!
+  pod 'IdensicMobileSDK', '~> 1.37'
+  pod 'IdensicMobileSDK/MRTDReader', '~> 1.37'
+end

@@ -1,0 +1,30 @@
+PODS:
+  - IdensicMobileSDK (1.37.1):
+    - IdensicMobileSDK/Default (= 1.37.1)
+  - IdensicMobileSDK/Core (1.37.1)
+  - IdensicMobileSDK/Default (1.37.1):
+    - IdensicMobileSDK/Core
+  - IdensicMobileSDK/MRTDReader (1.37.1):
+    - IdensicMobileSDK/MRTDReader-latest
+  - IdensicMobileSDK/MRTDReader-latest (1.37.1):
+    - IdensicMobileSDK/Core
+    - OpenSSL-Universal (>= 3.1.5001)
+  - OpenSSL-Universal (3.3.3001)
+
+DEPENDENCIES:
+  - IdensicMobileSDK (~> 1.37)
+  - IdensicMobileSDK/MRTDReader (~> 1.37)
+
+SPEC REPOS:
+  https://github.com/SumSubstance/Specs.git:
+    - IdensicMobileSDK
+  trunk:
+    - OpenSSL-Universal
+
+SPEC CHECKSUMS:
+  IdensicMobileSDK: cb6ca7e74c1386e568815437e0c8fa071ade9c24
+  OpenSSL-Universal: 6082b0bf950e5636fe0d78def171184e2b3899c2
+
+PODFILE CHECKSUM: 88cf82e2cfce380e39a0696ed20da8d8030addfb
+
+COCOAPODS: 1.16.2

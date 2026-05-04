@@ -1,0 +1,22 @@
+<dependencies>
+    <androidPackages>
+        <repositories>
+            <!-- <repository>https://repo.maven.apache.org/maven2</repository> -->
+        </repositories>
+    </androidPackages>
+
+    <iosPods>
+        <!-- CocoaPods sources -->
+        <sources>
+            <source>https://cdn.cocoapods.org/</source>
+            <source>https://github.com/SumSubstance/Specs.git</source>
+        </sources>
+
+        <!-- iOS minimum deployment target -->
+        <platform name="ios" version="13.0" />
+
+        <!-- Pods required for Sumsub -->
+        <iosPod name="IdensicMobileSDK" version="~> 1.37" />
+        <iosPod name="IdensicMobileSDK/MRTDReader" version="~> 1.37" />
+    </iosPods>
+</dependencies>

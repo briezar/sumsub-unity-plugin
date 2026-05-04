@@ -1,0 +1,4 @@
+framework module SumsubUnityPlugin {
+  header "SumsubUnityPlugin-Swift.h"
+  requires objc
+}
